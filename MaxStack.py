@@ -6,6 +6,8 @@ def pop(y):
     y.pop()
 
 def max(y):
+    if len(y)== 0:
+        print ("Stack empty")
     maxval = 0
     for i in y:
         if i > maxval:

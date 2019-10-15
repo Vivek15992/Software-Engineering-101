@@ -14,8 +14,6 @@ def pop(stackname):
         stackname.pop()
 
 
-
-
 stack = []
 maxstack = []
 
